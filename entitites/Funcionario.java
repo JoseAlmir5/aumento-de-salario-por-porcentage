@@ -6,7 +6,7 @@ public class Funcionario {
     private double salario;
 
     public Funcionario(String nome) {
-        this.nome = nome;
+        this(nome, 0.0);
     }
 
     public Funcionario(String nome, double salario) {
@@ -33,3 +33,4 @@ public class Funcionario {
                 + String.format("%.2f", getSalario());
     }
 }
+
